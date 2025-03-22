@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .game-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .game {
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .game a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #4CAF50;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .game a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Game Hub</h1>
+    <p>Click on the games below to play!</p>
+    <p> Note: Some Games may not work or are blocked.</p>
+</header>
+
+<main>
+    <div class="game-container">
+        <!-- Game 1: 2048 -->
+        <div class="game">
+            <h3>2048</h3>
+            <a href="https://play2048.co/" target="_blank">Play 2048</a>
+        </div>
+
+        <!-- Game 2: Geo Dash -->
+        <div class="game">
+            <h3>Geo Dash</h3>
+            <a href="https://www.geodash.com/" target="_blank">Play Geo Dash</a>
+        </div>
+
+        <!-- Game 3: Chess -->
+        <div class="game">
+            <h3>Chess</h3>
+            <a href="https://www.chess.com/play/online" target="_blank">Play Chess</a>
+        </div>
+
+        <!-- Game 4: Agar.io -->
+        <div class="game">
+            <h3>Agar.io</h3>
+            <a href="https://agar.io/" target="_blank">Play Agar.io</a>
+        </div>
+
+        <!-- Game 5: Cool Math Games -->
+        <div class="game">
+            <h3>Cool Math Games</h3>
+            <a href="https://www.coolmathgames.com/" target="_blank">Play Cool Math Games</a>
+        </div>
+
+        <!-- Game 6: Miniclip -->
+        <div class="game">
+            <h3>Miniclip</h3>
+            <a href="https://www.miniclip.com/games/en/" target="_blank">Play Miniclip Games</a>
+        </div>
+
+        <!-- Game 7: Poki -->
+        <div class="game">
+            <h3>Poki</h3>
+            <a href="https://poki.com/" target="_blank">Play Poki Games</a>
+        </div>
+
+        <!-- Game 8: Infinite Craft -->
+        <div class="game">
+            <h3>Infinite Craft</h3>
+            <a href="https://www.crazygames.com/game/infinite-craft" target="_blank">Play Infinite Craft</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 By MMS Students. All rights            reserved.</p>
+</footer>
+
+</body>
+</html>
